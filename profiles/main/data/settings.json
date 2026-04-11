@@ -54,8 +54,9 @@
             "chat.avatarForeground": "#80CBC4",
             "activityBarBadge.foreground": "#000000",
             "button.foreground": "#000000",
-            "statusBarItem.remoteHoverForeground": "#000000"
+            "statusBarItem.remoteHoverForeground": "#000001"
         }
     },
     "git.openRepositoryInParentFolders": "never",
+    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets"]
 }
