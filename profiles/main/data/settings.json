@@ -78,6 +78,8 @@
                     "punctuation.definition.string.end.yaml",
                     "string.quoted.double.kotlin",
                     "string.quoted.multi.python",
+                    "string.quoted.double.json.comments",
+                    "string.quoted.double.json",
                 ],
                 "settings": {
                     "foreground": "#6A8759FF",
@@ -141,6 +143,8 @@
                     "variable.parameter.function-call.python",
                     "storage.type.format.python",
                     "meta.item-access.arguments.python",
+                    "support.type.property-name.json.comments",
+                    "support.type.property-name.json",
                 ],
                 "settings": {
                     "foreground": "#797094FF",
@@ -186,6 +190,7 @@
                     "constant.numeric.dec.python",
                     "constant.numeric.float.python",
                     "constant.numeric.decimal.kotlin",
+                    "constant.numeric.json.comments",
                 ],
                 "settings": {
                     "foreground": "#6897BBFF",
