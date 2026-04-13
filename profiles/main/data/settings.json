@@ -87,6 +87,7 @@
             {
                 "scope": [
                     "constant.character.escape",
+                    "variable.string-escape.kotlin",
                 ],
                 "settings": {
                     "foreground": "#FFCB6BFF",
@@ -169,6 +170,7 @@
                     "variable.language.this.kotlin",
                     "punctuation.definition.decorator.python",
                     "entity.name.function.decorator.python",
+                    "keyword.control.kotlin",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -183,6 +185,7 @@
                     "constant.numeric.hex.python",
                     "constant.numeric.dec.python",
                     "constant.numeric.float.python",
+                    "constant.numeric.decimal.kotlin",
                 ],
                 "settings": {
                     "foreground": "#6897BBFF",
@@ -226,6 +229,12 @@
                     "keyword.operator.assignment.python",
                     "keyword.operator.comparison.python",
                     "storage.type.function.arrow.kotlin",
+                    "keyword.operator.comparison.kotlin",
+                    "keyword.operator.assignment.kotlin",
+                    "keyword.operator.increment-decrement.dart",
+                    "keyword.operator.ternary.dart",
+                    "punctuation.dot.dart",
+                    "keyword.operator.logical.dart",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
