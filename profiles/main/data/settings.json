@@ -95,6 +95,7 @@
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
+                    "fontStyle": "italic",
                 },
             },
             {
