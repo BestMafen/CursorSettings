@@ -9,8 +9,6 @@ builtin:
     - undefined.cursor-themes
 disabled: []
 enabled:
-  - id: adelphes.android-dev-ext
-    uuid: e481f37f-988f-48e8-85c8-f8b6554acd8f
   - id: anysphere.cpptools
     uuid: 033f8d91-0c9e-44cd-a3d2-b35fc4fd12da
   - id: anysphere.cursorpyright
@@ -29,9 +27,15 @@ enabled:
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-vscode.cmake-tools
     uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
-  - id: toroxx.vscode-avdmanager
-    uuid: 8a3c0fa2-8715-49a3-9599-6073bc32e992
+  - id: ms-vscode.hexeditor
+    uuid: cc7d2112-5178-4472-8e0e-25dced95e7f0
+  - id: Ramgopal.flutter-assets-generator
+    uuid: 935ee45a-9e31-413d-829f-d528161b5ab0
+  - id: ReprEng.csv
+    uuid: f2e80b0c-f33b-40ca-a3a5-bdaf53823a83
   - id: vadimcn.vscode-lldb
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
+  - id: zaaack.markdown-editor
+    uuid: d1d5603c-2be4-4f1b-b7b6-d7e908a8ad73
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

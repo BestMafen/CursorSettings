@@ -1,3 +1,4 @@
+keybindingsPerPlatform: true
 resources:
   - extensions
   - keybindings
