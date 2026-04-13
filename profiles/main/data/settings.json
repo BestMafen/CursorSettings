@@ -105,6 +105,7 @@
                     "comment.line.number-sign.python",
                     "comment.line.number-sign.yaml",
                     "comment.line.double-slash.kotlin",
+                    "comment.block.documentation.dart",
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
