@@ -42,7 +42,6 @@
                     "keyword.control.directive.include.c",
                     "keyword.control.directive.conditional.c",
                     "keyword.other.import.dart",
-                    "storage.type.annotation.dart",
                     "keyword.control.import.python",
                     "entity.name.function.decorator.python",
                 ],
@@ -77,10 +76,20 @@
                     "string.quoted.double.yaml",
                     "punctuation.definition.string.begin.yaml",
                     "punctuation.definition.string.end.yaml",
+                    "string.quoted.double.kotlin",
+                    "string.quoted.multi.python",
                 ],
                 "settings": {
                     "foreground": "#6A8759FF",
                     "fontStyle": "bold",
+                },
+            },
+            {
+                "scope": [
+                    "constant.character.escape",
+                ],
+                "settings": {
+                    "foreground": "#FFCB6BFF",
                 },
             },
             {
@@ -92,6 +101,7 @@
                     "punctuation.definition.comment.python",
                     "comment.line.number-sign.python",
                     "comment.line.number-sign.yaml",
+                    "comment.line.double-slash.kotlin",
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
@@ -104,6 +114,8 @@
                     "entity.name.function.dart",
                     "entity.name.function.python",
                     "meta.function-call.generic.python",
+                    "entity.name.function.call.kotlin",
+                    "entity.name.function.declaration.kotlin",
                 ],
                 "settings": {
                     "foreground": "#82AAFFFF",
@@ -146,6 +158,17 @@
                     "storage.type.class.python",
                     "variable.language.special.self.python",
                     "variable.parameter.function.language.special.self.python",
+                    "storage.type.annotation.dart",
+                    "keyword.soft.kotlin",
+                    "keyword.hard.package.kotlin",
+                    "keyword.hard.class.kotlin",
+                    "storage.modifier.other.kotlin",
+                    "keyword.hard.kotlin",
+                    "keyword.hard.object.kotlin",
+                    "keyword.hard.fun.kotlin",
+                    "variable.language.this.kotlin",
+                    "punctuation.definition.decorator.python",
+                    "entity.name.function.decorator.python",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -173,6 +196,8 @@
                     "entity.name.type.class.python",
                     "meta.function.parameters.python",
                     "support.type.exception.python",
+                    "entity.name.type.class.kotlin",
+                    "entity.name.type.kotlin",
                 ],
                 "settings": {
                     "foreground": "#C3E88DFF",
@@ -200,6 +225,7 @@
                     "keyword.operator.unpacking.arguments.python",
                     "keyword.operator.assignment.python",
                     "keyword.operator.comparison.python",
+                    "storage.type.function.arrow.kotlin",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -210,6 +236,7 @@
                     "constant.language.dart",
                     "constant.other.caps.python",
                     "constant.language.python",
+                    "support.variable.magic.python",
                 ],
                 "settings": {
                    "foreground": "#FF7A50FF",
