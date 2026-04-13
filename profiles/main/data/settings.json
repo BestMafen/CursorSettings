@@ -1,61 +1,222 @@
 {
     "editor.fontSize": 16,
-    "workbench.iconTheme": "vira-icons-carbon",
-    "workbench.tree.indent": 16,
-    "workbench.colorCustomizations": {
-        "[Vira*]": {
-            "statusBar.debuggingBackground": "#80CBC433",
-            "statusBar.debuggingForeground": "#80CBC4",
-            "toolbar.activeBackground": "#80CBC426",
-            "button.background": "#80CBC4",
-            "button.hoverBackground": "#80CBC4cc",
-            "extensionButton.separator": "#80CBC433",
-            "extensionButton.background": "#80CBC414",
-            "extensionButton.foreground": "#80CBC4",
-            "extensionButton.hoverBackground": "#80CBC433",
-            "extensionButton.prominentForeground": "#80CBC4",
-            "extensionButton.prominentBackground": "#80CBC414",
-            "extensionButton.prominentHoverBackground": "#80CBC433",
-            "activityBarBadge.background": "#80CBC4",
-            "activityBar.activeBorder": "#80CBC4",
-            "activityBarTop.activeBorder": "#80CBC4",
-            "list.inactiveSelectionIconForeground": "#80CBC4",
-            "list.activeSelectionForeground": "#80CBC4",
-            "list.inactiveSelectionForeground": "#80CBC4",
-            "list.highlightForeground": "#80CBC4",
-            "sash.hoverBorder": "#80CBC480",
-            "list.activeSelectionIconForeground": "#80CBC4",
-            "scrollbarSlider.activeBackground": "#80CBC480",
-            "editorSuggestWidget.highlightForeground": "#80CBC4",
-            "textLink.foreground": "#80CBC4",
-            "progressBar.background": "#80CBC4",
-            "pickerGroup.foreground": "#80CBC4",
-            "tab.activeBorder": "#80CBC4",
-            "tab.activeBorderTop": "#80CBC400",
-            "tab.unfocusedActiveBorder": "#80CBC4",
-            "tab.unfocusedActiveBorderTop": "#80CBC400",
-            "tab.activeModifiedBorder": "#80CBC400",
-            "notificationLink.foreground": "#80CBC4",
-            "editorWidget.resizeBorder": "#80CBC4",
-            "editorWidget.border": "#80CBC4",
-            "settings.modifiedItemIndicator": "#80CBC4",
-            "panelTitle.activeBorder": "#80CBC4",
-            "breadcrumb.activeSelectionForeground": "#80CBC4",
-            "menu.selectionForeground": "#80CBC4",
-            "menubar.selectionForeground": "#80CBC4",
-            "editor.findMatchBorder": "#80CBC4",
-            "selection.background": "#80CBC440",
-            "statusBarItem.remoteBackground": "#80CBC414",
-            "statusBarItem.remoteHoverBackground": "#80CBC4",
-            "statusBarItem.remoteForeground": "#80CBC4",
-            "notebook.inactiveFocusedCellBorder": "#80CBC480",
-            "chat.slashCommandForeground": "#80CBC4",
-            "chat.avatarForeground": "#80CBC4",
-            "activityBarBadge.foreground": "#000000",
-            "button.foreground": "#000000",
-            "statusBarItem.remoteHoverForeground": "#000000"
-        }
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "class": {
+                "foreground": "#C3E88DFF",
+                "fontStyle": "bold",
+            },
+            "type": {
+                "foreground": "#C3E88DFF",
+                "fontStyle": "bold",
+            },
+            "property": {
+                "foreground": "#63FDDEFF",
+            },
+            "variable.declaration.definition.fileScope": {
+                "foreground": "#0098FFFF",
+            },
+            "variable.declaration.definition.globalScope": {
+                "foreground": "#0098FFFF",
+            },
+            "variable": {
+                "foreground": "#EEFFE3FF",
+            },
+            "parameter": {
+                "foreground": "#797094FF",
+            },
+            "enumMember": {
+                "foreground": "#FF7A50FF",
+                "fontStyle": "bold italic",
+            },
+            "operator": {
+                "foreground": "#89DDFFFF",
+            },
+        },
     },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.definition.directive.c",
+                    "keyword.control.directive.include.c",
+                    "keyword.control.directive.conditional.c",
+                    "keyword.other.import.dart",
+                    "storage.type.annotation.dart",
+                    "keyword.control.import.python",
+                    "entity.name.function.decorator.python",
+                ],
+                "settings": {
+                    "foreground": "#FFA0DBFF",
+                    "fontStyle": "bold",
+                },
+            },
+            {
+                "scope": [
+                    "entity.name.function.preprocessor.c",
+                ],
+                "settings": {
+                    "foreground": "#FFCB6BFF",
+                    "fontStyle": "bold",
+                },
+            },
+            {
+                "scope": [
+                    "string.quoted.double.include.c",
+                    "string.quoted.double.c",
+                    "punctuation.definition.string.begin.c",
+                    "punctuation.definition.string.end.c",
+                    "string.quoted.single.dart",
+                    "string.interpolated.double.dart",
+                    "string.interpolated.single.dart",
+                    "string.quoted.single.python",
+                    "string.quoted.double.python",
+                    "punctuation.definition.string.begin.python",
+                    "punctuation.definition.string.end.python",
+                    "string.quoted.single.yaml",
+                    "string.quoted.double.yaml",
+                    "punctuation.definition.string.begin.yaml",
+                    "punctuation.definition.string.end.yaml",
+                ],
+                "settings": {
+                    "foreground": "#6A8759FF",
+                    "fontStyle": "bold",
+                },
+            },
+            {
+                "scope": [
+                    "comment.line.double-slash.c",
+                    "comment.block.c",
+                    "comment.line.double-slash.dart",
+                    "comment.line.number-sign.python",
+                    "punctuation.definition.comment.python",
+                    "comment.line.number-sign.python",
+                    "comment.line.number-sign.yaml",
+                ],
+                "settings": {
+                    "foreground": "#959DAAFF",
+                },
+            },
+            {
+                "scope": [
+                    "entity.name.function.c",
+                    "entity.name.function.dart",
+                    "entity.name.function.python",
+                    "meta.function-call.generic.python",
+                ],
+                "settings": {
+                    "foreground": "#82AAFFFF",
+                },
+            },
+            {
+                "scope": [
+                    "support.function.builtin.python",
+                    "support.function.magic.python",
+                ],
+                "settings": {
+                    "foreground": "#82AAFFFF",
+                    "fontStyle": "italic"
+                },
+            },
+            {
+                "scope": [
+                    "variable.parameter.preprocessor.c",
+                    "meta.preprocessor.macro.c",
+                    "variable.parameter.function.language.python",
+                    "entity.other.inherited-class.python",
+                    "variable.parameter.function-call.python",
+                    "storage.type.format.python",
+                    "meta.item-access.arguments.python",
+                ],
+                "settings": {
+                    "foreground": "#797094FF",
+                },
+            },
+            {
+                "scope": [
+                    "storage.type.built-in.primitive.c",
+                    "storage.modifier.c",
+                    "keyword.declaration.dart",
+                    "keyword.control.dart",
+                    "storage.modifier.dart",
+                    "keyword.control.return.dart",
+                    "storage.type.function.python",
+                    "keyword.control.flow.python",
+                    "storage.type.class.python",
+                    "variable.language.special.self.python",
+                    "variable.parameter.function.language.special.self.python",
+                ],
+                "settings": {
+                    "foreground": "#C792EAFF",
+                    "fontStyle": "bold",
+                },
+            },
+            {
+                "scope": [
+                    "constant.numeric.decimal.c",
+                    "constant.numeric.dart",
+                    "storage.type.number.python",
+                    "constant.numeric.hex.python",
+                    "constant.numeric.dec.python",
+                    "constant.numeric.float.python",
+                ],
+                "settings": {
+                    "foreground": "#6897BBFF",
+                },
+            },
+            {
+                "scope": [
+                    "support.class.dart",
+                    "support.type.python",
+                    "entity.name.type.class.python",
+                    "meta.function.parameters.python",
+                    "support.type.exception.python",
+                ],
+                "settings": {
+                    "foreground": "#C3E88DFF",
+                    "fontStyle": "bold",
+                },
+            },
+            {
+                "scope": [
+                    "variable.other.member.c",
+                    "meta.attribute.python",
+                    "string.unquoted.plain.out.yaml",
+                ],
+                "settings": {
+                    "foreground": "#63FDDEFF",
+                },
+            },
+            {
+                "scope": [
+                    "keyword.operator.assignment.dart",
+                    "keyword.operator.assignment.arithmetic.dart",
+                    "keyword.operator.comparison.dart",
+                    "keyword.operator.closure.dart",
+                    "punctuation.separator.annotation.result.python",
+                    "keyword.operator.bitwise.python",
+                    "keyword.operator.unpacking.arguments.python",
+                    "keyword.operator.assignment.python",
+                    "keyword.operator.comparison.python",
+                ],
+                "settings": {
+                    "foreground": "#89DDFFFF",
+                },
+            },
+            {
+                "scope": [
+                    "constant.language.dart",
+                    "constant.other.caps.python",
+                    "constant.language.python",
+                ],
+                "settings": {
+                   "foreground": "#FF7A50FF",
+                    "fontStyle": "bold italic",
+                },
+            },
+        ]
+    },
+    "workbench.tree.indent": 16,
     "clangd.path": "c:\\Users\\sma\\AppData\\Roaming\\Cursor\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\22.1.0\\clangd_22.1.0\\bin\\clangd.exe",
     "diffEditor.renderSideBySide": false,
     "python.createEnvironment.trigger": "off",
@@ -77,7 +238,7 @@
     "editor.rulers": [
         110
     ],
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 2.4,
     "cmake.buildDirectory": "${sourceDirectory}/cmake-build-debug",
     "cmake.cmakePath": "D:\\dev\\CMake\\bin\\cmake.exe",
     "explorer.autoReveal": false,
