@@ -151,6 +151,7 @@
                     "punctuation.definition.comment.end.documentation.c",
                     "storage.type.class.doxygen.c",
                     "punctuation.definition.comment.c",
+                    "comment.line.number-sign.ignore",
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
