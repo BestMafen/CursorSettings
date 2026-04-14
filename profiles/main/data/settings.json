@@ -10,6 +10,10 @@
                 "foreground": "#C3E88DFF",
                 "fontStyle": "bold",
             },
+            "enum": {
+                "foreground": "#C3E88DFF",
+                "fontStyle": "bold",
+            },
             "property": {
                 "foreground": "#63FDDEFF",
             },
@@ -32,6 +36,13 @@
             "operator": {
                 "foreground": "#89DDFFFF",
             },
+            "function": {
+                "foreground": "#82AAFFFF",
+            },
+            "macro": {
+                "foreground": "#FFCB6BFF",
+                "fontStyle": "bold",
+            },
         },
     },
     "editor.tokenColorCustomizations": {
@@ -43,6 +54,12 @@
                     "keyword.control.directive.conditional.c",
                     "keyword.other.import.dart",
                     "keyword.control.import.python",
+                    "keyword.control.directive.conditional.ifdef.cpp",
+                    "keyword.control.directive.endif.cpp",
+                    "keyword.control.directive.conditional.ifndef.cpp",
+                    "keyword.control.directive.define.cpp",
+                    "keyword.control.directive.include.cpp",
+                    "punctuation.definition.directive.cpp",
                 ],
                 "settings": {
                     "foreground": "#FFA0DBFF",
@@ -87,6 +104,11 @@
                     "string.quoted.double.java",
                     "punctuation.definition.string.begin.java",
                     "punctuation.definition.string.end.java",
+                    "string.quoted.double.include.cpp",
+                    "punctuation.definition.string.begin.cpp",
+                    "punctuation.definition.string.end.cpp",
+                    "string.quoted.other.lt-gt.include.cpp",
+                    "string.quoted.double.cpp",
                 ],
                 "settings": {
                     "foreground": "#6A8759FF",
@@ -114,6 +136,13 @@
                     "comment.line.double-slash.kotlin",
                     "comment.block.documentation.dart",
                     "comment.block.javadoc.kotlin",
+                    "comment.block.documentation.cpp",
+                    "punctuation.definition.comment.begin.documentation.cpp",
+                    "punctuation.definition.comment.end.documentation.cpp",
+                    "storage.type.class.doxygen.cpp",
+                    "comment.block.cpp",
+                    "punctuation.definition.comment.begin.cpp",
+                    "punctuation.definition.comment.end.cpp",
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
@@ -129,6 +158,8 @@
                     "entity.name.function.call.kotlin",
                     "entity.name.function.declaration.kotlin",
                     "entity.name.function.java",
+                    "entity.name.function.definition.cpp",
+                    "entity.name.function.call.cpp",
                 ],
                 "settings": {
                     "foreground": "#82AAFFFF",
@@ -156,6 +187,9 @@
                     "support.type.property-name.json.comments",
                     "support.type.property-name.json",
                     "variable.parameter.java",
+                    "variable.parameter.cpp",
+                    "variable.parameter.preprocessor.cpp",
+                    "meta.parens.cpp",
                 ],
                 "settings": {
                     "foreground": "#797094FF",
@@ -190,6 +224,16 @@
                     "keyword.control.new.java",
                     "constant.language.null.kotlin",
                     "keyword.hard.typealias.kotlin",
+                    "storage.modifier.inline.cpp",
+                    "storage.modifier.static.cpp",
+                    "keyword.control.return.cpp",
+                    "storage.type.built-in.primitive.cpp",
+                    "storage.type.extern.cpp",
+                    "storage.type.struct.parameter.cpp",
+                    "keyword.other.typedef.cpp",
+                    "storage.modifier.specifier.const.cpp",
+                    "storage.type.union.cpp",
+                    "storage.type.struct.declare.cpp",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -207,6 +251,10 @@
                     "constant.numeric.decimal.kotlin",
                     "constant.numeric.json.comments",
                     "constant.numeric.decimal.java",
+                    "constant.numeric.decimal.point.cpp",
+                    "constant.numeric.decimal.cpp",
+                    "keyword.other.unit.hexadecimal.cpp",
+                    "constant.numeric.hexadecimal.cpp",
                 ],
                 "settings": {
                     "foreground": "#6897BBFF",
@@ -226,6 +274,9 @@
                     "entity.name.type.class.java",
                     "storage.type.primitive.java",
                     "storage.type.java",
+                    "entity.name.type.struct.parameter.cpp",
+                    "storage.type.enum.cpp",
+                    "storage.type.struct.cpp",
                 ],
                 "settings": {
                     "foreground": "#C3E88DFF",
@@ -237,6 +288,8 @@
                     "variable.other.member.c",
                     "meta.attribute.python",
                     "string.unquoted.plain.out.yaml",
+                    "variable.other.object.property.cpp",
+                    "variable.other.property.cpp",
                 ],
                 "settings": {
                     "foreground": "#63FDDEFF",
@@ -262,6 +315,12 @@
                     "keyword.operator.logical.dart",
                     "keyword.operator.assignment.java",
                     "keyword.operator.logical.kotlin",
+                    "storage.modifier.pointer.cpp",
+                    "punctuation.definition.function.pointer.dereference.cpp",
+                    "keyword.operator.arithmetic.cpp",
+                    "keyword.operator.bitwise.cpp",
+                    "keyword.operator.assignment.cpp",
+                    "punctuation.separator.pointer-access.cpp",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -334,4 +393,8 @@
     "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets"],
     "syncSettings.keybindingsPerPlatform": true,
     "window.restoreWindows": "none",
+    "emulator.androidColdBoot": true,
+    "emulator.emulatorPathMac": "~/Library/Android/sdk/emulator",
+    "emulator.emulatorPathWindows": "C:\\Users\\sma\\AppData\\Local\\Android\\Sdk\\emulator",
+    "hexeditor.maxFileSize": 2048
 }
