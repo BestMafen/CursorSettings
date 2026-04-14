@@ -60,6 +60,7 @@
                     "keyword.control.directive.define.cpp",
                     "keyword.control.directive.include.cpp",
                     "punctuation.definition.directive.cpp",
+                    "keyword.control.directive.define.c",
                 ],
                 "settings": {
                     "foreground": "#FFA0DBFF",
@@ -143,6 +144,13 @@
                     "comment.block.cpp",
                     "punctuation.definition.comment.begin.cpp",
                     "punctuation.definition.comment.end.cpp",
+                    "comment.line.double-slash.cpp",
+                    "punctuation.definition.comment.cpp",
+                    "comment.block.documentation.c",
+                    "punctuation.definition.comment.begin.documentation.c",
+                    "punctuation.definition.comment.end.documentation.c",
+                    "storage.type.class.doxygen.c",
+                    "punctuation.definition.comment.c",
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
@@ -234,6 +242,12 @@
                     "storage.modifier.specifier.const.cpp",
                     "storage.type.union.cpp",
                     "storage.type.struct.declare.cpp",
+                    "keyword.control.c",
+                    "keyword.other.typedef.c",
+                    "keyword.control.switch.c",
+                    "keyword.control.case.c",
+                    "keyword.control.default.c",
+                    "keyword.operator.sizeof.c",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -255,6 +269,7 @@
                     "constant.numeric.decimal.cpp",
                     "keyword.other.unit.hexadecimal.cpp",
                     "constant.numeric.hexadecimal.cpp",
+                    "onstant.numeric.decimal.c",
                 ],
                 "settings": {
                     "foreground": "#6897BBFF",
@@ -277,6 +292,11 @@
                     "entity.name.type.struct.parameter.cpp",
                     "storage.type.enum.cpp",
                     "storage.type.struct.cpp",
+                    "storage.type.enum.c",
+                    "storage.type.struct.c",
+                    "storage.type.built-in.c",
+                    "storage.type.built-in.primitive.c",
+                    "support.type.posix-reserved.c",
                 ],
                 "settings": {
                     "foreground": "#C3E88DFF",
@@ -290,6 +310,7 @@
                     "string.unquoted.plain.out.yaml",
                     "variable.other.object.property.cpp",
                     "variable.other.property.cpp",
+                    "variable.object.c",
                 ],
                 "settings": {
                     "foreground": "#63FDDEFF",
@@ -321,6 +342,12 @@
                     "keyword.operator.bitwise.cpp",
                     "keyword.operator.assignment.cpp",
                     "punctuation.separator.pointer-access.cpp",
+                    "punctuation.separator.pointer-access.c",
+                    "keyword.operator.comparison.c",
+                    "keyword.operator.assignment.c",
+                    "keyword.operator.logical.c",
+                    "keyword.operator.c",
+                    "keyword.operator.assignment.compound.bitwise.c",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -396,5 +423,6 @@
     "emulator.androidColdBoot": true,
     "emulator.emulatorPathMac": "~/Library/Android/sdk/emulator",
     "emulator.emulatorPathWindows": "C:\\Users\\sma\\AppData\\Local\\Android\\Sdk\\emulator",
-    "hexeditor.maxFileSize": 2048
+    "hexeditor.maxFileSize": 2048,
+    "diffEditor.ignoreTrimWhitespace": false
 }
