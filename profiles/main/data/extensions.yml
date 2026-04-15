@@ -25,6 +25,8 @@ enabled:
     uuid: d14e9a1d-64ce-4c73-8e17-619bc4b8a9c1
   - id: fwcd.kotlin
     uuid: c86bc8a9-fd3b-44db-b28a-2d146cb78d3c
+  - id: llvm-vs-code-extensions.lldb-dap
+    uuid: 8f0e51b3-cc69-4cf9-abab-97289d29d6de
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: localizely.flutter-intl
@@ -41,6 +43,8 @@ enabled:
     uuid: 935ee45a-9e31-413d-829f-d528161b5ab0
   - id: ReprEng.csv
     uuid: f2e80b0c-f33b-40ca-a3a5-bdaf53823a83
+  - id: sweetpad.sweetpad
+    uuid: 1b71760b-5eed-4b6a-abe8-37461b79d23f
   - id: vadimcn.vscode-lldb
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
   - id: zaaack.markdown-editor

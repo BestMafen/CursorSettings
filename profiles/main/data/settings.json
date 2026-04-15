@@ -65,6 +65,7 @@
                     "keyword.control.directive.include.cpp",
                     "punctuation.definition.directive.cpp",
                     "keyword.control.directive.define.c",
+                    "keyword.control.import.swift",
                 ],
                 "settings": {
                     "foreground": "#FFA0DBFF",
@@ -114,6 +115,9 @@
                     "punctuation.definition.string.end.cpp",
                     "string.quoted.other.lt-gt.include.cpp",
                     "string.quoted.double.cpp",
+                    "string.quoted.double.single-line.swift",
+                    "punctuation.definition.string.begin.swift",
+                    "punctuation.definition.string.end.swift",
                 ],
                 "settings": {
                     "foreground": "#6A8759FF",
@@ -156,6 +160,12 @@
                     "storage.type.class.doxygen.c",
                     "punctuation.definition.comment.c",
                     "comment.line.number-sign.ignore",
+                    "punctuation.definition.comment.swift",
+                    "comment.line.double-slash.swift",
+                    "comment.block.documentation.swift",
+                    "punctuation.definition.comment.begin.swift",
+                    "punctuation.definition.comment.end.swift",
+                    "comment.line.triple-slash.documentation.swift",
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
@@ -173,6 +183,8 @@
                     "entity.name.function.java",
                     "entity.name.function.definition.cpp",
                     "entity.name.function.call.cpp",
+                    "support.function.any-method.swift",
+                    "entity.name.function.swift",
                 ],
                 "settings": {
                     "foreground": "#82AAFFFF",
@@ -182,6 +194,7 @@
                 "scope": [
                     "support.function.builtin.python",
                     "support.function.magic.python",
+                    "support.function.swift",
                 ],
                 "settings": {
                     "foreground": "#82AAFFFF",
@@ -203,6 +216,7 @@
                     "variable.parameter.cpp",
                     "variable.parameter.preprocessor.cpp",
                     "meta.parens.cpp",
+                    "variable.parameter.function.swift",
                 ],
                 "settings": {
                     "foreground": "#797094FF",
@@ -253,6 +267,17 @@
                     "keyword.control.case.c",
                     "keyword.control.default.c",
                     "keyword.operator.sizeof.c",
+                    "keyword.other.declaration-specifier.swift",
+                    "keyword.other.declaration-specifier.accessibility.swift",
+                    "storage.type.class.swift",
+                    "storage.modifier.swift",
+                    "keyword.control.transfer.swift",
+                    "keyword.operator.type-casting.swift",
+                    "keyword.control.branch.swift",
+                    "storage.type.function.swift",
+                    "keyword.control.exception.swift",
+                    "keyword.control.loop.swift",
+                    "storage.type.extension.swift",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -275,6 +300,8 @@
                     "keyword.other.unit.hexadecimal.cpp",
                     "constant.numeric.hexadecimal.cpp",
                     "onstant.numeric.decimal.c",
+                    "constant.numeric.float.decimal.swift",
+                    "constant.numeric.integer.decimal.swift",
                 ],
                 "settings": {
                     "foreground": "#6897BBFF",
@@ -302,6 +329,11 @@
                     "storage.type.built-in.c",
                     "storage.type.built-in.primitive.c",
                     "support.type.posix-reserved.c",
+                    "entity.name.type.swift",
+                    "entity.name.type.class.swift",
+                    "meta.type-name.swift",
+                    "support.type.swift",
+                    "support.type.any.swift",
                 ],
                 "settings": {
                     "foreground": "#C3E88DFF",
@@ -353,6 +385,10 @@
                     "keyword.operator.logical.c",
                     "keyword.operator.c",
                     "keyword.operator.assignment.compound.bitwise.c",
+                    "keyword.operator.custom.infix.swift",
+                    "keyword.operator.custom.prefix.swift",
+                    "keyword.operator.custom.infix.dot.swift",
+                    "keyword.operator.function-result.swift",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -364,6 +400,7 @@
                     "constant.other.caps.python",
                     "constant.language.python",
                     "support.variable.magic.python",
+                    "constant.language.boolean.swift",
                 ],
                 "settings": {
                    "foreground": "#FF7A50FF",

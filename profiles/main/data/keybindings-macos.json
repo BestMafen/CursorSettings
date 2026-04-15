@@ -375,5 +375,44 @@
         "key": "alt+f5",
         "command": "-workbench.action.compareEditor.nextChange",
         "when": "textCompareEditorVisible"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "activeEditorIsReviewChanges || editorFocus || activeEditorIsReviewChanges && editorFocus || activeEditorIsReviewChanges && editorIsOpen || editorFocus && editorIsOpen"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-actions.find",
+        "when": "activeEditorIsReviewChanges || editorFocus || activeEditorIsReviewChanges && editorFocus || activeEditorIsReviewChanges && editorIsOpen || editorFocus && editorIsOpen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "-editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-glass.toggleDraftsTray",
+        "when": "glassDraftTrayEnabled && glassNoModalOpen && isGlassEmptyWorkspace && !isGlassAgentSelected"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
     }
 ]
