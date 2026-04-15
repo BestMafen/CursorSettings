@@ -66,6 +66,8 @@
                     "punctuation.definition.directive.cpp",
                     "keyword.control.directive.define.c",
                     "keyword.control.import.swift",
+                    "constant.language.boolean.swift",
+                    "constant.language.nil.swift",
                 ],
                 "settings": {
                     "foreground": "#FFA0DBFF",
@@ -278,6 +280,7 @@
                     "keyword.control.exception.swift",
                     "keyword.control.loop.swift",
                     "storage.type.extension.swift",
+                    "storage.modifier.exception.swift",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -389,6 +392,8 @@
                     "keyword.operator.custom.prefix.swift",
                     "keyword.operator.custom.infix.dot.swift",
                     "keyword.operator.function-result.swift",
+                    "keyword.operator.type.optional.swift",
+                    "keyword.operator.assignment.swift",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -400,7 +405,6 @@
                     "constant.other.caps.python",
                     "constant.language.python",
                     "support.variable.magic.python",
-                    "constant.language.boolean.swift",
                 ],
                 "settings": {
                    "foreground": "#FF7A50FF",
