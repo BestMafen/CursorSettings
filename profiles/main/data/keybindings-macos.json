@@ -33,7 +33,7 @@
         "command": "-workbench.action.quickOpen"
     },
     {
-        "key": "ctrl+e",
+        "key": "cmd+e",
         "command": "workbench.action.quickOpen"
     },
     {
@@ -414,5 +414,34 @@
         "key": "ctrl+r",
         "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
         "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-cursorLineEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-actions.findWithSelection"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-cursor.toggleAgentWindowIDEUnification",
+        "when": "!isGlass && workbenchState != 'empty'"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+        "when": "accessibilityHelpIsShown"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-glass.openChangesTab",
+        "when": "isGlassAgentWorkspace"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-glass.openChangesTab",
+        "when": "isGlassAgentWorkspace && terminalFocusInAny"
     }
 ]
