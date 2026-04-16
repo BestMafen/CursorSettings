@@ -7,7 +7,9 @@ builtin:
     - anysphere.cursor-retrieval
     - anysphere.cursor-socket
     - undefined.cursor-themes
-disabled: []
+disabled:
+  - id: sweetpad.sweetpad
+    uuid: 1b71760b-5eed-4b6a-abe8-37461b79d23f
 enabled:
   - id: adelphes.android-dev-ext
     uuid: e481f37f-988f-48e8-85c8-f8b6554acd8f
@@ -43,8 +45,6 @@ enabled:
     uuid: 935ee45a-9e31-413d-829f-d528161b5ab0
   - id: ReprEng.csv
     uuid: f2e80b0c-f33b-40ca-a3a5-bdaf53823a83
-  - id: sweetpad.sweetpad
-    uuid: 1b71760b-5eed-4b6a-abe8-37461b79d23f
   - id: vadimcn.vscode-lldb
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
   - id: zaaack.markdown-editor
