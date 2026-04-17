@@ -283,6 +283,7 @@
                     "storage.modifier.exception.swift",
                     "keyword.control.catch-exception.dart",
                     "keyword.operator.dart",
+                    "keyword.cast.dart",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -396,6 +397,7 @@
                     "keyword.operator.function-result.swift",
                     "keyword.operator.type.optional.swift",
                     "keyword.operator.assignment.swift",
+                    "keyword.operator.bitwise.dart",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -484,4 +486,5 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.tree.stickyScrollMaxItemCount": 4,
     "explorer.compactFolders": false,
+    "editor.find.addExtraSpaceOnTop": false,
 }
