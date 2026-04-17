@@ -384,5 +384,49 @@
         "key": "ctrl+shift+n",
         "command": "-glass.openIde",
         "when": "glassNoModalOpen && isGlassEmptyWorkspace"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.terminal.runRecentCommand",
+        "when": "accessibilityModeEnabled && terminalFocus && terminalHasBeenCreated || accessibilityModeEnabled && terminalFocus && terminalProcessSupported || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadBrowserTab",
+        "when": "cursor.browserTabEnabled && activeEditor == 'workbench.editor.browserEditor'"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-glass.refreshDiffTab",
+        "when": "isGlassAgentWorkspace && glassActiveTabKind == 'diff'"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-glass.toggleDraftsTray",
+        "when": "glassDraftTrayEnabled && glassNoModalOpen && isGlassEmptyWorkspace && !isGlassAgentSelected"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.terminal.chat.rerunRequest",
+        "when": "chatIsEnabled && terminalChatFocus && terminalHasBeenCreated && !terminalChatActiveRequest || chatIsEnabled && terminalChatFocus && terminalProcessSupported && !terminalChatActiveRequest"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
     }
 ]
