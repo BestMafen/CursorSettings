@@ -1,4 +1,6 @@
 keybindingsPerPlatform: true
+ignoredExtensions:
+  - DiemasMichiels.emulate
 resources:
   - extensions
   - keybindings
