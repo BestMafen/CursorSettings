@@ -282,6 +282,7 @@
                     "storage.type.extension.swift",
                     "storage.modifier.exception.swift",
                     "keyword.control.catch-exception.dart",
+                    "keyword.operator.dart",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
