@@ -481,4 +481,6 @@
     "emulator.emulatorPathWindows": "C:\\Users\\sma\\AppData\\Local\\Android\\Sdk\\emulator",
     "hexeditor.maxFileSize": 2048,
     "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.tree.stickyScrollMaxItemCount": 4,
+    "explorer.compactFolders": false,
 }
