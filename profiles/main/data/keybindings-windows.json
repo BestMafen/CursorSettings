@@ -375,5 +375,14 @@
         "key": "alt+f5",
         "command": "-workbench.action.compareEditor.nextChange",
         "when": "textCompareEditorVisible"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-glass.openIde",
+        "when": "glassNoModalOpen && isGlassEmptyWorkspace"
     }
 ]

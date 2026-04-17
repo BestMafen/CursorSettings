@@ -468,11 +468,16 @@
     "editor.suggest.showWords": true,
     "workbench.list.openMode": "doubleClick",
     "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets"],
+    // #if (os="mac")
+    // "syncSettings.ignoredExtensions": ["sweetpad.sweetpad", "swiftlang.swift-vscode"],
+    // #else
+    // "syncSettings.ignoredExtensions": ["DiemasMichiels.emulate"],
+    // #endif
     "syncSettings.keybindingsPerPlatform": true,
     "window.restoreWindows": "none",
     "emulator.androidColdBoot": true,
     "emulator.emulatorPathMac": "~/Library/Android/sdk/emulator",
     "emulator.emulatorPathWindows": "C:\\Users\\sma\\AppData\\Local\\Android\\Sdk\\emulator",
     "hexeditor.maxFileSize": 2048,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
 }
