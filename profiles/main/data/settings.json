@@ -219,6 +219,7 @@
                     "variable.parameter.preprocessor.cpp",
                     "meta.parens.cpp",
                     "variable.parameter.function.swift",
+                    "variable.parameter.java",
                 ],
                 "settings": {
                     "foreground": "#797094FF",
@@ -284,6 +285,12 @@
                     "keyword.control.catch-exception.dart",
                     "keyword.operator.dart",
                     "keyword.cast.dart",
+                    "keyword.control.java",
+                    "keyword.control.try.java",
+                    "keyword.control.catch.java",
+                    "variable.language.this.java",
+                    "storage.modifier.extends.java",
+                    "storage.modifier.implements.java",
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
@@ -340,6 +347,8 @@
                     "meta.type-name.swift",
                     "support.type.swift",
                     "support.type.any.swift",
+                    "variable.other.object.java",
+                    "entity.other.inherited-class.java",
                 ],
                 "settings": {
                     "foreground": "#C3E88DFF",
@@ -354,6 +363,7 @@
                     "variable.other.object.property.cpp",
                     "variable.other.property.cpp",
                     "variable.object.c",
+                    "variable.other.object.property.java",
                 ],
                 "settings": {
                     "foreground": "#63FDDEFF",
@@ -398,6 +408,11 @@
                     "keyword.operator.type.optional.swift",
                     "keyword.operator.assignment.swift",
                     "keyword.operator.bitwise.dart",
+                    "keyword.operator.logical.java",
+                    "keyword.operator.comparison.java",
+                    "keyword.operator.bitwise.java",
+                    "keyword.control.ternary.java",
+                    "keyword.operator.arithmetic.java",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -409,6 +424,7 @@
                     "constant.other.caps.python",
                     "constant.language.python",
                     "support.variable.magic.python",
+                    "constant.language.java",
                 ],
                 "settings": {
                    "foreground": "#FF7A50FF",
@@ -442,7 +458,6 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "files.autoSave": "onFocusChange",
-    "diffEditor.hideUnchangedRegions.enabled": true,
     "editor.inlayHints.enabled": "off",
     "dart.inlayHints": false,
     "editor.rulers": [
@@ -487,4 +502,5 @@
     "workbench.tree.stickyScrollMaxItemCount": 4,
     "explorer.compactFolders": false,
     "editor.find.addExtraSpaceOnTop": false,
+    "diffEditor.hideUnchangedRegions.enabled": true,
 }
