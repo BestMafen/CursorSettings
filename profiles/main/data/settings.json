@@ -413,6 +413,7 @@
                     "keyword.operator.bitwise.java",
                     "keyword.control.ternary.java",
                     "keyword.operator.arithmetic.java",
+                    "keyword.operator.arithmetic.dart",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
