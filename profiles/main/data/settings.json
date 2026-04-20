@@ -66,8 +66,6 @@
                     "punctuation.definition.directive.cpp",
                     "keyword.control.directive.define.c",
                     "keyword.control.import.swift",
-                    "constant.language.boolean.swift",
-                    "constant.language.nil.swift",
                 ],
                 "settings": {
                     "foreground": "#FFA0DBFF",
@@ -426,6 +424,8 @@
                     "constant.language.python",
                     "support.variable.magic.python",
                     "constant.language.java",
+                    "constant.language.boolean.swift",
+                    "constant.language.nil.swift",
                 ],
                 "settings": {
                    "foreground": "#FF7A50FF",
