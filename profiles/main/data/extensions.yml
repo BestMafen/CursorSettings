@@ -27,6 +27,8 @@ enabled:
     uuid: f6c3ec04-6057-4d9c-b997-69cba07a6158
   - id: fwcd.kotlin
     uuid: c86bc8a9-fd3b-44db-b28a-2d146cb78d3c
+  - id: illixion.vscode-vibrancy-continued
+    uuid: da69820f-32f2-49c6-915b-aa8e49455529
   - id: llvm-vs-code-extensions.lldb-dap
     uuid: 8f0e51b3-cc69-4cf9-abab-97289d29d6de
   - id: llvm-vs-code-extensions.vscode-clangd
