@@ -114,6 +114,8 @@
                     "punctuation.definition.directive.cpp",
                     "keyword.control.directive.define.c",
                     "keyword.control.import.swift",
+                    "keyword.control.directive.conditional.if.cpp",
+                    "keyword.control.directive.elif.cpp",
                 ],
                 "settings": {
                     "fontStyle": "bold",
