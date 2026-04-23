@@ -1,25 +1,90 @@
 {
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.quickSuggestions": {
+            "strings": true,
+        },
+        "editor.wordBasedSuggestions": "off",
+    },
+    "clangd.path": "c:\\Users\\sma\\AppData\\Roaming\\Cursor\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\22.1.0\\clangd_22.1.0\\bin\\clangd.exe",
+    "cmake.buildDirectory": "${sourceDirectory}/cmake-build-debug",
+    "cmake.cmakePath": "D:\\dev\\CMake\\bin\\cmake.exe",
+    "dart.inlayHints": false,
+    "debug.onTaskErrors": "debugAnyway",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.find.addExtraSpaceOnTop": false,
     // #if (os="mac")
     // "editor.fontSize": 14,
     // #else
     // "editor.fontSize": 16,
     // #endif
+    "editor.guides.bracketPairs": "active",
+    "editor.inlayHints.enabled": "off",
+    "editor.rulers": [
+        110
+    ],
     "editor.semanticTokenColorCustomizations": {
         "rules": {
-            "class": {
-                "foreground": "#C3E88DFF",
-                "fontStyle": "bold",
+            "annotation": {
+                "foreground": "#FFCB6BFF",
+                // "fontStyle": "bold",
             },
-            "type": {
-                "foreground": "#C3E88DFF",
+            "class": {
                 "fontStyle": "bold",
+                "foreground": "#C3E88DFF",
+            },
+            "comment": {
+                "foreground": "#959DAAFF",
             },
             "enum": {
-                "foreground": "#C3E88DFF",
                 "fontStyle": "bold",
+                "foreground": "#C3E88DFF",
+            },
+            "enumMember": {
+                "fontStyle": "bold italic",
+                "foreground": "#FF7A50FF",
+            },
+            "function": {
+                "foreground": "#82AAFFFF",
+            },
+            "keyword": {
+                "foreground": "#C792EAFF",
+                // "fontStyle": "bold",
+            },
+            "macro": {
+                "fontStyle": "bold",
+                "foreground": "#FFCB6BFF",
+            },
+            "method": {
+                "foreground": "#82AAFFFF",
+            },
+            "number": {
+                "foreground": "#6897BBFF",
+            },
+            "operator": {
+                "foreground": "#89DDFFFF",
+            },
+            "parameter": {
+                "foreground": "#797094FF",
             },
             "property": {
                 "foreground": "#63FDDEFF",
+            },
+            "string": {
+                "foreground": "#6A8759FF",
+                // "fontStyle": "bold",
+            },
+            "type": {
+                "fontStyle": "bold",
+                "foreground": "#C3E88DFF",
+            },
+            "variable": {
+                "foreground": "#EEFFE3FF",
             },
             "variable.declaration.definition.fileScope": {
                 "foreground": "#0098FFFF",
@@ -27,49 +92,11 @@
             "variable.declaration.definition.globalScope": {
                 "foreground": "#0098FFFF",
             },
-            "variable": {
-                "foreground": "#EEFFE3FF",
-            },
-            "parameter": {
-                "foreground": "#797094FF",
-            },
-            "enumMember": {
-                "foreground": "#FF7A50FF",
-                "fontStyle": "bold italic",
-            },
-            "operator": {
-                "foreground": "#89DDFFFF",
-            },
-            "function": {
-                "foreground": "#82AAFFFF",
-            },
-            "method": {
-                "foreground": "#82AAFFFF",
-            },
-            "macro": {
-                "foreground": "#FFCB6BFF",
-                "fontStyle": "bold",
-            },
-            "keyword": {
-                "foreground": "#C792EAFF",
-                // "fontStyle": "bold",
-            },
-            "string": {
-                "foreground": "#6A8759FF",
-                // "fontStyle": "bold",
-            },
-            "annotation": {
-                "foreground": "#FFCB6BFF",
-                // "fontStyle": "bold",
-            },
-            "number": {
-                "foreground": "#6897BBFF",
-            },
-            "comment": {
-                "foreground": "#959DAAFF",
-            },
         },
     },
+    "editor.suggest.filterGraceful": true,
+    "editor.suggest.matchOnWordStartOnly": false,
+    "editor.suggest.showWords": true,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -89,8 +116,8 @@
                     "keyword.control.import.swift",
                 ],
                 "settings": {
-                    "foreground": "#FFA0DBFF",
                     "fontStyle": "bold",
+                    "foreground": "#FFA0DBFF",
                 },
             },
             {
@@ -103,8 +130,8 @@
                     "punctuation.definition.decorator.python",
                 ],
                 "settings": {
-                    "foreground": "#FFCB6BFF",
                     "fontStyle": "bold",
+                    "foreground": "#FFCB6BFF",
                 },
             },
             {
@@ -218,8 +245,8 @@
                     "support.function.swift",
                 ],
                 "settings": {
+                    "fontStyle": "italic",
                     "foreground": "#82AAFFFF",
-                    "fontStyle": "italic"
                 },
             },
             {
@@ -370,8 +397,8 @@
                     "entity.other.inherited-class.java",
                 ],
                 "settings": {
-                    "foreground": "#C3E88DFF",
                     "fontStyle": "bold",
+                    "foreground": "#C3E88DFF",
                 },
             },
             {
@@ -449,8 +476,8 @@
                     "constant.language.nil.swift",
                 ],
                 "settings": {
-                   "foreground": "#FF7A50FF",
                     "fontStyle": "bold italic",
+                   "foreground": "#FF7A50FF",
                 },
             },
             {
@@ -462,100 +489,74 @@
                    "foreground": "#FEFEFEFF",
                 },
             },
-        ]
+        ],
     },
-    "workbench.tree.indent": 16,
-    "clangd.path": "c:\\Users\\sma\\AppData\\Roaming\\Cursor\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\22.1.0\\clangd_22.1.0\\bin\\clangd.exe",
-    "diffEditor.renderSideBySide": false,
-    "python.createEnvironment.trigger": "off",
-    "[python]": {
-        "diffEditor.ignoreTrimWhitespace": false,
-        "editor.defaultColorDecorators": "never",
-        "editor.formatOnType": true,
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.wordBasedSuggestions": "off"
-    },
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "files.autoSave": "onFocusChange",
-    "editor.inlayHints.enabled": "off",
-    "dart.inlayHints": false,
-    "editor.rulers": [
-        110
-    ],
-    // #if (os="mac")
-    // "window.zoomLevel": 1.0,
-    // #else
-    // "window.zoomLevel": 2.4,
-    // #endif
-    "cmake.buildDirectory": "${sourceDirectory}/cmake-build-debug",
-    "cmake.cmakePath": "D:\\dev\\CMake\\bin\\cmake.exe",
-    "explorer.autoReveal": false,
-    "debug.onTaskErrors": "debugAnyway",
-    "workbench.sideBar.location": "right",
-    "gitlens.ai.model": "gitkraken",
-    "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
-    "explorer.excludeGitIgnore": false,
-    "search.useIgnoreFiles": false,
-    "git.repositoryScanMaxDepth": 4,
-    "git.autoRepositoryDetection": "subFolders",
-    "workbench.colorTheme": "Default Dark+",
-    "explorer.confirmPasteNative": false,
-    "editor.suggest.matchOnWordStartOnly": false,
-    "editor.suggest.filterGraceful": true,
     "editor.wordBasedSuggestions": "allDocuments",
-    "editor.suggest.showWords": true,
-    "workbench.list.openMode": "doubleClick",
-    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets"],
+    "emulator.androidColdBoot": true,
+    "emulator.emulatorPathMac": "~/Library/Android/sdk/emulator",
+    "emulator.emulatorPathWindows": "C:\\Users\\sma\\AppData\\Local\\Android\\Sdk\\emulator",
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.excludeGitIgnore": false,
+    "files.autoSave": "onFocusChange",
+    "git.autoRepositoryDetection": "subFolders",
+    "git.repositoryScanMaxDepth": 4,
+    "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
+    "gitlens.ai.model": "gitkraken",
+    "hexeditor.maxFileSize": 2048,
+    "python.createEnvironment.trigger": "off",
+    "search.useIgnoreFiles": false,
     // #if (os="mac")
     // "syncSettings.ignoredExtensions": ["sweetpad.sweetpad", "swiftlang.swift-vscode"],
     // #else
     // "syncSettings.ignoredExtensions": ["DiemasMichiels.emulate"],
     // #endif
     "syncSettings.keybindingsPerPlatform": true,
-    "window.restoreWindows": "none",
-    "emulator.androidColdBoot": true,
-    "emulator.emulatorPathMac": "~/Library/Android/sdk/emulator",
-    "emulator.emulatorPathWindows": "C:\\Users\\sma\\AppData\\Local\\Android\\Sdk\\emulator",
-    "hexeditor.maxFileSize": 2048,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.tree.stickyScrollMaxItemCount": 4,
-    "explorer.compactFolders": false,
-    "editor.find.addExtraSpaceOnTop": false,
-    "diffEditor.hideUnchangedRegions.enabled": true,
-    "workbench.colorCustomizations": {
-        "terminal.background": "#00000000",
-        "editorPane.background": "#1e1e1e00",
-        "editorGroupHeader.tabsBackground": "#1e1e1e00",
-        "editorGroupHeader.noTabsBackground": "#1e1e1e00",
-        "breadcrumb.background": "#1e1e1e00",
-        "editorGutter.background": "#1e1e1e00",
-        "panel.background": "#1e1e1e00",
-        "panelStickyScroll.background": "#1e1e1e00",
-        "tab.activeBackground": "#1e1e1e00",
-        "tab.unfocusedActiveBackground": "#1e1e1e00",
-        "sideBar.background": "#1e1e1ecc",
-        "sideBarTitle.background": "#1e1e1ecc",
-        "sideBarStickyScroll.background": "#1e1e1ecc",
-        "activityBar.background": "#1e1e1ecc",
-        "editor.background": "#1e1e1ecc",
-        "editorStickyScroll.background": "#1e1e1ecc",
-        "editorStickyScrollGutter.background": "#1e1e1ecc",
-        "tab.inactiveBackground": "#1e1e1ecc",
-        "tab.unfocusedInactiveBackground": "#1e1e1ecc",
-        "inlineChat.background": "#1e1e1ee6",
-        "editorWidget.background": "#1e1e1ee6",
-        "editorHoverWidget.background": "#1e1e1ee6",
-        "editorSuggestWidget.background": "#1e1e1ee6",
-        "notifications.background": "#1e1e1ee6",
-        "notificationCenterHeader.background": "#1e1e1ee6",
-        "menu.background": "#1e1e1ee6",
-        "quickInput.background": "#1e1e1ee6"
-    },
+    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets"],
     "terminal.integrated.gpuAcceleration": "off",
-    "window.systemColorTheme": "dark",
     "window.autoDetectColorScheme": false,
     "window.controlsStyle": "custom",
+    "window.restoreWindows": "none",
+    "window.systemColorTheme": "dark",
+    // #if (os="mac")
+    // "window.zoomLevel": 1.0,
+    // #else
+    // "window.zoomLevel": 2.4,
+    // #endif
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1e1e1ecc",
+        "breadcrumb.background": "#1e1e1e00",
+        "editor.background": "#1e1e1ecc",
+        "editorGroupHeader.noTabsBackground": "#1e1e1e00",
+        "editorGroupHeader.tabsBackground": "#1e1e1e00",
+        "editorGutter.background": "#1e1e1e00",
+        "editorHoverWidget.background": "#1e1e1ee6",
+        "editorPane.background": "#1e1e1e00",
+        "editorStickyScroll.background": "#1e1e1ecc",
+        "editorStickyScrollGutter.background": "#1e1e1ecc",
+        "editorSuggestWidget.background": "#1e1e1ee6",
+        "editorWidget.background": "#1e1e1ee6",
+        "inlineChat.background": "#1e1e1ee6",
+        "menu.background": "#1e1e1ee6",
+        "notificationCenterHeader.background": "#1e1e1ee6",
+        "notifications.background": "#1e1e1ee6",
+        "panel.background": "#1e1e1e00",
+        "panelStickyScroll.background": "#1e1e1e00",
+        "quickInput.background": "#1e1e1ee6",
+        "sideBar.background": "#1e1e1ecc",
+        "sideBarStickyScroll.background": "#1e1e1ecc",
+        "sideBarTitle.background": "#1e1e1ecc",
+        "tab.activeBackground": "#1e1e1e00",
+        "tab.inactiveBackground": "#1e1e1ecc",
+        "tab.unfocusedActiveBackground": "#1e1e1e00",
+        "tab.unfocusedInactiveBackground": "#1e1e1ecc",
+        "terminal.background": "#00000000",
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.stickyScrollMaxItemCount": 4,
 }
