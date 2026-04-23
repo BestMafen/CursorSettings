@@ -19,8 +19,6 @@ enabled:
     uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
   - id: anysphere.remote-wsl
     uuid: 39a52826-2472-403d-8410-37905302f26a
-  - id: CreevekCZ.idx-xcode
-    uuid: 86c04efb-525d-481e-a0da-941091a79fd0
   - id: Dart-Code.dart-code
     uuid: f57f68ea-9ee8-42b5-9a97-041d3e4278c4
   - id: Dart-Code.flutter

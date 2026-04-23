@@ -52,15 +52,15 @@
             },
             "keyword": {
                 "foreground": "#C792EAFF",
-                "fontStyle": "bold",
+                // "fontStyle": "bold",
             },
             "string": {
                 "foreground": "#6A8759FF",
-                "fontStyle": "bold",
+                // "fontStyle": "bold",
             },
             "annotation": {
                 "foreground": "#FFCB6BFF",
-                "fontStyle": "bold",
+                // "fontStyle": "bold",
             },
             "number": {
                 "foreground": "#6897BBFF",
@@ -142,7 +142,7 @@
                 ],
                 "settings": {
                     "foreground": "#6A8759FF",
-                    "fontStyle": "bold",
+                    // "fontStyle": "bold",
                 },
             },
             {
@@ -313,7 +313,7 @@
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
-                    "fontStyle": "bold",
+                    // "fontStyle": "bold",
                 },
             },
             {
