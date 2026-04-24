@@ -483,5 +483,53 @@
         "key": "ctrl+oem_period",
         "command": "-problems.action.showQuickFixes",
         "when": "problemFocus"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-glass.focusAdjacentTile",
+        "when": "glassTilesetPaneFocused && glassTilingEnabled && isGlassAgentWorkspace && !terminalFocusInAny"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-glass.previousAgent",
+        "when": "glassNoModalOpen && isGlassEmptyWorkspace && !glassTilesetPaneFocused && !terminalFocusInAny"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-quickInput.previousSeparator",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-glass.focusAdjacentTile",
+        "when": "glassTilesetPaneFocused && glassTilingEnabled && isGlassAgentWorkspace && !terminalFocusInAny"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-glass.nextAgent",
+        "when": "glassNoModalOpen && isGlassEmptyWorkspace && !glassTilesetPaneFocused && !terminalFocusInAny"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-quickInput.nextSeparator",
+        "when": "inQuickInput && quickInputType == 'quickPick'"
     }
 ]

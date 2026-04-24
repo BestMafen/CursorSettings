@@ -1,4 +1,14 @@
 {
+    "[c]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+    "[cpp]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.defaultColorDecorators": "never",
@@ -116,6 +126,8 @@
                     "keyword.control.import.swift",
                     "keyword.control.directive.conditional.if.cpp",
                     "keyword.control.directive.elif.cpp",
+                    "invalid.illegal.stray-else.c",
+                    "invalid.illegal.stray-endif.c",
                 ],
                 "settings": {
                     "fontStyle": "bold",
@@ -463,6 +475,7 @@
                     "keyword.control.ternary.java",
                     "keyword.operator.arithmetic.java",
                     "keyword.operator.arithmetic.dart",
+                    "keyword.operator.bitwise.shift.c",
                 ],
                 "settings": {
                     "foreground": "#89DDFFFF",
@@ -502,12 +515,15 @@
     "explorer.compactFolders": false,
     "explorer.confirmPasteNative": false,
     "explorer.excludeGitIgnore": false,
+    // "explorer.decorations.colors": true,
+    // "explorer.decorations.badges": true,
     "files.autoSave": "onFocusChange",
     "git.autoRepositoryDetection": "subFolders",
     "git.repositoryScanMaxDepth": 4,
     "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
     "gitlens.ai.model": "gitkraken",
     "hexeditor.maxFileSize": 2048,
+    "problems.decorations.enabled": false,
     "python.createEnvironment.trigger": "off",
     "search.useIgnoreFiles": false,
     // #if (os="mac")
@@ -527,39 +543,9 @@
     // #else
     // "window.zoomLevel": 2.4,
     // #endif
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#1e1e1ecc",
-        "breadcrumb.background": "#1e1e1e00",
-        "editor.background": "#1e1e1ecc",
-        "editorGroupHeader.noTabsBackground": "#1e1e1e00",
-        "editorGroupHeader.tabsBackground": "#1e1e1e00",
-        "editorGutter.background": "#1e1e1e00",
-        "editorHoverWidget.background": "#1e1e1ee6",
-        "editorPane.background": "#1e1e1e00",
-        "editorStickyScroll.background": "#1e1e1ecc",
-        "editorStickyScrollGutter.background": "#1e1e1ecc",
-        "editorSuggestWidget.background": "#1e1e1ee6",
-        "editorWidget.background": "#1e1e1ee6",
-        "inlineChat.background": "#1e1e1ee6",
-        "menu.background": "#1e1e1ee6",
-        "notificationCenterHeader.background": "#1e1e1ee6",
-        "notifications.background": "#1e1e1ee6",
-        "panel.background": "#1e1e1e00",
-        "panelStickyScroll.background": "#1e1e1e00",
-        "quickInput.background": "#1e1e1ee6",
-        "sideBar.background": "#1e1e1ecc",
-        "sideBarStickyScroll.background": "#1e1e1ecc",
-        "sideBarTitle.background": "#1e1e1ecc",
-        "tab.activeBackground": "#1e1e1e00",
-        "tab.inactiveBackground": "#1e1e1ecc",
-        "tab.unfocusedActiveBackground": "#1e1e1e00",
-        "tab.unfocusedInactiveBackground": "#1e1e1ecc",
-        "terminal.background": "#00000000",
-    },
     "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
     "workbench.list.openMode": "doubleClick",
     "workbench.sideBar.location": "right",
-    "workbench.tree.enableStickyScroll": false,
     "workbench.tree.indent": 16,
     "workbench.tree.stickyScrollMaxItemCount": 4,
 }

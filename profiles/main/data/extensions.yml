@@ -43,7 +43,6 @@ enabled:
     uuid: f2e80b0c-f33b-40ca-a3a5-bdaf53823a83
   - id: vadimcn.vscode-lldb
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
-    version: 1.12.2
   - id: zaaack.markdown-editor
     uuid: d1d5603c-2be4-4f1b-b7b6-d7e908a8ad73
   - id: zokugun.cron-tasks
