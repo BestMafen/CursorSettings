@@ -168,6 +168,7 @@
                     "string.quoted.double.single-line.swift",
                     "punctuation.definition.string.begin.swift",
                     "punctuation.definition.string.end.swift",
+                    "string.quoted.other.lt-gt.include.c",
                 ],
                 "settings": {
                     "foreground": "#6A8759FF",
@@ -555,7 +556,7 @@
         "tab.unfocusedInactiveBackground": "#1e1e1ecc",
         "terminal.background": "#00000000",
     },
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
     "workbench.list.openMode": "doubleClick",
     "workbench.sideBar.location": "right",
     "workbench.tree.enableStickyScroll": false,

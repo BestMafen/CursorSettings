@@ -15,18 +15,14 @@ enabled:
     uuid: 033f8d91-0c9e-44cd-a3d2-b35fc4fd12da
   - id: anysphere.cursorpyright
     uuid: d7f9f831-2239-4783-9d06-18d27f285818
-  - id: anysphere.remote-ssh
-    uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
-  - id: anysphere.remote-wsl
-    uuid: 39a52826-2472-403d-8410-37905302f26a
+  - id: CreevekCZ.idx-xcode
+    uuid: 86c04efb-525d-481e-a0da-941091a79fd0
   - id: Dart-Code.dart-code
     uuid: f57f68ea-9ee8-42b5-9a97-041d3e4278c4
   - id: Dart-Code.flutter
     uuid: f6c3ec04-6057-4d9c-b997-69cba07a6158
   - id: fwcd.kotlin
     uuid: c86bc8a9-fd3b-44db-b28a-2d146cb78d3c
-  - id: illixion.vscode-vibrancy-continued
-    uuid: da69820f-32f2-49c6-915b-aa8e49455529
   - id: llvm-vs-code-extensions.lldb-dap
     uuid: 8f0e51b3-cc69-4cf9-abab-97289d29d6de
   - id: llvm-vs-code-extensions.vscode-clangd
@@ -47,6 +43,7 @@ enabled:
     uuid: f2e80b0c-f33b-40ca-a3a5-bdaf53823a83
   - id: vadimcn.vscode-lldb
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
+    version: 1.12.2
   - id: zaaack.markdown-editor
     uuid: d1d5603c-2be4-4f1b-b7b6-d7e908a8ad73
   - id: zokugun.cron-tasks
