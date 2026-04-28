@@ -15,6 +15,10 @@ enabled:
     uuid: 033f8d91-0c9e-44cd-a3d2-b35fc4fd12da
   - id: anysphere.cursorpyright
     uuid: d7f9f831-2239-4783-9d06-18d27f285818
+  - id: anysphere.remote-ssh
+    uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
+  - id: anysphere.remote-wsl
+    uuid: 39a52826-2472-403d-8410-37905302f26a
   - id: CreevekCZ.idx-xcode
     uuid: 86c04efb-525d-481e-a0da-941091a79fd0
   - id: Dart-Code.dart-code
