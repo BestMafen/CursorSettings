@@ -1,13 +1,18 @@
 {
     "[c]": {
-        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
         "editor.insertSpaces": true,
-        "editor.detectIndentation": false
+        "editor.tabSize": 4,
     },
     "[cpp]": {
-        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
         "editor.insertSpaces": true,
-        "editor.detectIndentation": false
+        "editor.tabSize": 4,
+    },
+    "[kotlin]": {
+        "editor.defaultFormatter": "fwcd.kotlin",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
     },
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
@@ -348,6 +353,7 @@
                     "storage.type.extern.cpp",
                     "storage.type.function.python",
                     "storage.type.function.swift",
+                    "storage.type.primitive.dart",
                     "storage.type.struct.declare.cpp",
                     "storage.type.struct.parameter.cpp",
                     "storage.type.union.cpp",
@@ -358,7 +364,7 @@
                 ],
                 "settings": {
                     "foreground": "#C792EAFF",
-                    // "fontStyle": "bold",
+                    "fontStyle": "bold",
                 },
             },
             {
@@ -402,7 +408,6 @@
                     "storage.type.enum.c",
                     "storage.type.enum.cpp",
                     "storage.type.java",
-                    "storage.type.primitive.dart",
                     "storage.type.primitive.java",
                     "storage.type.struct.c",
                     "storage.type.struct.cpp",
