@@ -526,8 +526,6 @@
     "files.autoSave": "onFocusChange",
     "git.autoRepositoryDetection": "subFolders",
     "git.repositoryScanMaxDepth": 4,
-    "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
-    "gitlens.ai.model": "gitkraken",
     "hexeditor.maxFileSize": 2048,
     "problems.decorations.enabled": false,
     "python.createEnvironment.trigger": "off",
