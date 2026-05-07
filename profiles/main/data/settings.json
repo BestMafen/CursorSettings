@@ -282,6 +282,7 @@
                     "support.type.property-name.json.comments",
                     "support.type.property-name.json",
                     "variable.parameter.cpp",
+                    "variable.parameter.dart",
                     "variable.parameter.function-call.python",
                     "variable.parameter.function.language.python",
                     "variable.parameter.function.swift",
@@ -547,7 +548,7 @@
     // #else
     // "window.zoomLevel": 2.4,
     // #endif
-    "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
+    "workbench.colorTheme": "IDX Xcode - Improved",
     "workbench.list.openMode": "doubleClick",
     "workbench.sideBar.location": "right",
     "workbench.tree.indent": 16,
