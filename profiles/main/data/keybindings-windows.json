@@ -597,5 +597,15 @@
     {
         "key": "ctrl+pagedown",
         "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "!isAuxiliaryWindowFocusedContext"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-glass.toggleSidebarFromKeyboard",
+        "when": "glassNoModalOpen && isGlassEmptyWorkspace"
     }
 ]
