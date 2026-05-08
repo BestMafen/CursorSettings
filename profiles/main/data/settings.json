@@ -214,6 +214,7 @@
                     "comment.line.double-slash.c",
                     "comment.line.double-slash.cpp",
                     "comment.line.double-slash.dart",
+                    "comment.line.double-slash.js",
                     "comment.line.double-slash.kotlin",
                     "comment.line.double-slash.swift",
                     "comment.line.number-sign.ignore",
@@ -326,6 +327,7 @@
                     "keyword.hard.object.kotlin",
                     "keyword.hard.package.kotlin",
                     "keyword.hard.typealias.kotlin",
+                    "keyword.new.dart",
                     "keyword.operator.dart",
                     "keyword.operator.sizeof.c",
                     "keyword.operator.type-casting.swift",
@@ -554,8 +556,10 @@
     // "workbench.sideBar.location": "right",
     // "workbench.tree.indent": 16,
     // "workbench.tree.stickyScrollMaxItemCount": 4,
-    // "workbench.iconTheme": "vira-icons-anthracite",
-    // "dart.checkForSdkUpdates": false,
     // "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
+    // "workbench.colorCustomizations": {
+        // 当前选中的搜索命中背景（例如：亮橘色）
+    //     "editor.findMatchBackground": "#ffea00",
+    // }
 // }
 // 
