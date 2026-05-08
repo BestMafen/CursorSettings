@@ -445,6 +445,7 @@
                     "keyword.operator.arithmetic.cpp",
                     "keyword.operator.arithmetic.dart",
                     "keyword.operator.arithmetic.java",
+                    "keyword.operator.arithmetic.python",
                     "keyword.operator.assignment.arithmetic.dart",
                     "keyword.operator.assignment.c",
                     "keyword.operator.assignment.compound.bitwise.c",
@@ -548,7 +549,7 @@
     // #else
     // "window.zoomLevel": 2.4,
     // #endif
-    "workbench.colorTheme": "IDX Xcode - Improved",
+    "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
     "workbench.list.openMode": "doubleClick",
     "workbench.sideBar.location": "right",
     "workbench.tree.indent": 16,

@@ -607,5 +607,30 @@
         "key": "ctrl+b",
         "command": "-glass.toggleSidebarFromKeyboard",
         "when": "glassNoModalOpen && isGlassEmptyWorkspace"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-notebook.centerActiveCell",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-glass.openFilePrioritizedPalette",
+        "when": "glassNoModalOpen && isGlassEmptyWorkspace || isGlassEmptyWorkspace && glassActiveModal == 'palette'"
     }
 ]
