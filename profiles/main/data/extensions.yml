@@ -29,6 +29,8 @@ enabled:
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: localizely.flutter-intl
     uuid: 56a0f86e-ba0a-4f57-9fed-652d34e0a812
+  - id: ms-python.black-formatter
+    uuid: 859e640c-c157-47da-8699-9080b81c8371
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.python

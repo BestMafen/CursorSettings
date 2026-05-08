@@ -17,6 +17,7 @@
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.defaultColorDecorators": "never",
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true,
         "editor.quickSuggestions": {
             "strings": true,
@@ -217,7 +218,6 @@
                     "comment.line.double-slash.swift",
                     "comment.line.number-sign.ignore",
                     "comment.line.number-sign.python",
-                    "comment.line.number-sign.python",
                     "comment.line.number-sign.yaml",
                     "comment.line.triple-slash.documentation.swift",
                     "punctuation.definition.comment.begin.c",
@@ -240,7 +240,7 @@
                 ],
                 "settings": {
                     "foreground": "#959DAAFF",
-                    // "fontStyle": "italic",
+                    "fontStyle": "",
                 },
             },
             {
@@ -293,6 +293,7 @@
                 ],
                 "settings": {
                     "foreground": "#797094FF",
+                    "fontStyle": "",
                 },
             },
             {
@@ -549,10 +550,12 @@
     // "window.zoomLevel": 1.0,
     // #else
     // "window.zoomLevel": 2.4,
-    // #endif
-    "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
-    "workbench.list.openMode": "doubleClick",
-    "workbench.sideBar.location": "right",
-    "workbench.tree.indent": 16,
-    "workbench.tree.stickyScrollMaxItemCount": 4,
-}
+    // "workbench.list.openMode": "doubleClick",
+    // "workbench.sideBar.location": "right",
+    // "workbench.tree.indent": 16,
+    // "workbench.tree.stickyScrollMaxItemCount": 4,
+    // "workbench.iconTheme": "vira-icons-anthracite",
+    // "dart.checkForSdkUpdates": false,
+    // "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
+// }
+// 
