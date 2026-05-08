@@ -476,6 +476,7 @@
                     "keyword.operator.logical.dart",
                     "keyword.operator.logical.java",
                     "keyword.operator.logical.kotlin",
+                    "keyword.operator.logical.python",
                     "keyword.operator.ternary.dart",
                     "keyword.operator.type.optional.swift",
                     "keyword.operator.unpacking.arguments.python",
