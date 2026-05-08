@@ -558,7 +558,6 @@
     // "workbench.tree.stickyScrollMaxItemCount": 4,
     // "workbench.colorTheme": "IDX VS Code - Default Dark Syntax",
     // "workbench.colorCustomizations": {
-        // 当前选中的搜索命中背景（例如：亮橘色）
     //     "editor.findMatchBackground": "#ffea00",
     // }
 // }
